@@ -1,0 +1,14 @@
+package aula20200619;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		Funcionario Adauto = new Coordenador("Adauto Vieira");
+		
+		Funcionario Caio = new Professor("Caio Joao");
+		
+		System.out.println("O coordenador :"+ Adauto.getNome()+ "coordena cursos e pode também ministrar aulas");
+		System.out.println("O professor :" + Caio.getNome()+ "ministra somente aulas");
+	}
+}
